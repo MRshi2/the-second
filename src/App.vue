@@ -9,5 +9,6 @@ export default {}
 </script>
 
 <style>
+	@import "icomoon/style.css";
 	@import "./reset.css";
 </style>
