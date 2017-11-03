@@ -1,39 +1,45 @@
 <template>
  	<header class="header">
- 		<div class="header-left icon-home"></div>
- 		<div class="header-title">
- 			输入城市/景点/游玩主题
- 		</div>
+ 		<div class="header-left iconfont icon-fanhui"></div>
+ 		<router-link to="/list">
+	 		<div class="header-title">
+	 			输入城市/景点/游玩主题
+	 		</div>
+ 		</router-link>
  		<div class="header-right">
- 			北京
+ 			<div class="header-city-wrapper">
+ 				<span class="header-city">北京</span>
+ 			</div>
  		</div>
  	</header>
 </template>
 
+
 <script>
-export default {
-	
-}
+	export default {
+		
+	}
 </script>
 
 <style>
+	
 	.header {
-		position: relative;
 		height: .88rem;
 		background: #00bcd4;
+		overflow: hidden;
 	}
 	.header-left {
 		float: left;
 		width: .4rem;
 		padding: 0 .2rem;
 		line-height: .88rem;
-		font-size: .3rem;
+		font-size: .4rem;
 		color: #fff;
 	}
 	.header-title {
 		position: absolute;
 		left: .8rem;
-		right: 1.28rem;
+		right: 1.36rem;
 		top: .14rem;
 		line-height: .6rem;
 		background: #fff;
@@ -47,17 +53,26 @@ export default {
 		line-height: .88rem;
 		text-align: center;
 		color: #fff;
-		font-size: 0.2rem;
 	}
-	.header-right:after {
-		content: "";
-		position: absolute;
-		top: .35rem;
-		right: 0.06rem;
-		width: 0rem;
-		height: 0rem;
-		border-left: 0.1rem solid transparent;
-		border-right: 0.1rem solid transparent;
-		border-top: 0.15rem solid #FFFFFF; 
+	.header-city-wrapper {
+		position: relative;
+		padding-right: .3rem;
+	}
+	.header-city {
+		overflow: hidden;
+		display: inline-block;
+		white-space: nowrap;
+		width: 1rem;
+		text-overflow: ellipsis;
+	}
+	.header-city::after {
+		content: "\0020";
+		position: absolute;		
+		top: .4rem;
+		right: .14rem;
+		width: 0;
+		height: 0;
+		border: .1rem solid transparent;
+		border-top: .1rem solid #fff;
 	}
 </style>

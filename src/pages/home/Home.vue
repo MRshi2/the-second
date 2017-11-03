@@ -2,6 +2,7 @@
 	<div>
  		<home-header/>
  		<swiper-content/>
+ 		<shi-content/>
  	</div>
 </template>
 
@@ -9,11 +10,13 @@
 
 import HeaderComponent from "./Header";
 import SwiperComponent from "./Swiper";
+import ShiserComponent from "./Shi";
 
 export default {
 	components: {
 		"home-header": HeaderComponent,
-		"swiper-content": SwiperComponent
+		"swiper-content": SwiperComponent,
+		"shi-content":ShiserComponent
 	}
 }
 </script>
