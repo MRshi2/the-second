@@ -4,35 +4,36 @@
     		<div class="swiper-img-con">
     			<ul>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/img/home/1.png"></div>
-    					<div class="over">景点门票景点门票</div>
+    					<img src="../../assets/img/home/1.png" class="img-con">
+    					<p class="contents">景点门票景点门票</p>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/img/home/2.png"></div>
-    					<div>动植物园</div>
+    					<img src="../../assets/img/home/2.png" class="img-con">
+    					<p class="contents">动植物园</p>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/img/home/3.png"></div>
-    					<div>故宫</div>
+    					<img src="../../assets/img/home/3.png" class="img-con">
+    					<p class="contents">故宫</p>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/img/home/4.png"></div>
-    					<div>一日游</div>
+    					<img src="../../assets/img/home/4.png" class="img-con">
+    					<p class="contents">一日游</p>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/img/home/5.png"></div>
-    					<div>必有榜单</div>
+    					<img src="../../assets/img/home/5.png" class="img-con">
+    					<p class="contents">必有榜单</p>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/img/home/6.png"></div>
-    					<div>秋色美</div>
+    					<img src="../../assets/img/home/6.png" class="img-con">
+    					<p class="contents">秋色美</p>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/img/home/7.png"></div>
-    					<div>游乐场</div></li>
+    					<img src="../../assets/img/home/7.png" class="img-con">
+    					<p class="contents">游乐场</p>
+    				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/img/home/8.png"></div>
-    					<div>泡温泉</div>
+    					<img src="../../assets/img/home/8.png" class="img-con">
+    					<p class="contents">泡温泉</p>
     				</li>
     			</ul>
     			
@@ -42,35 +43,36 @@
    			<div class="swiper-img-con">
    				<ul>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/img/home/1.png"></div>
-    					<div>景点门票</div>
+    					<img src="../../assets/img/home/1.png" class="img-con">
+    					<p class="contents">景点门票景点门票</p>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/img/home/2.png"></div>
-    					<div>动植物园</div>
+    					<img src="../../assets/img/home/2.png" class="img-con">
+    					<p class="contents">动植物园</p>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/img/home/3.png"></div>
-    					<div>故宫</div>
+    					<img src="../../assets/img/home/3.png" class="img-con">
+    					<p class="contents">故宫</p>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/img/home/4.png"></div>
-    					<div>一日游</div>
+    					<img src="../../assets/img/home/4.png" class="img-con">
+    					<p class="contents">一日游</p>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/img/home/5.png"></div>
-    					<div>必有榜单</div>
+    					<img src="../../assets/img/home/5.png" class="img-con">
+    					<p class="contents">必有榜单</p>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/img/home/6.png"></div>
-    					<div>秋色美</div>
+    					<img src="../../assets/img/home/6.png" class="img-con">
+    					<p class="contents">秋色美</p>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/img/home/7.png"></div>
-    					<div>游乐场</div></li>
+    					<img src="../../assets/img/home/7.png" class="img-con">
+    					<p class="contents">游乐场</p>
+    				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/img/home/8.png"></div>
-    					<div>泡温泉</div>
+    					<img src="../../assets/img/home/8.png" class="img-con">
+    					<p class="contents">泡温泉</p>
     				</li>
     			</ul>
     			
@@ -123,17 +125,13 @@
 		padding-top: 0.3rem;
 	}
 	
-	.imgdiv{
+	.img-con{
 		width: 0.66rem;
 		height: 0.66rem;
-		margin-left: 0.6rem;
-		margin-bottom: 0.1rem;
+		margin-bottom:0.2rem
 	}
-	.imgdiv img{
-		width: 100%;
-	}
-	.over{
-		width: 1.5rem;
+	
+	.contents{
 		margin-left: 0.2rem;
 		white-space: nowrap;
 		text-overflow: ellipsis;
