@@ -106,6 +106,7 @@ export default {}
 }
 	.mp-product-item a{
 		display: flex;
+		justify-content: space-between;
 		padding: 0.1rem 0 0.1rem 0;
 		border-bottom: 1px solid #EEEEEE;
 		color: #000000;
@@ -158,7 +159,7 @@ export default {}
 		padding-right:0.2rem
 	}
 	.mp-product-info{
-		width:4.9rem;
+/*		width:4.9rem;*/
 		position: relative;
 		padding-left:0.1rem;
 		padding-right:0.1rem;
