@@ -1,63 +1,77 @@
 <template>
- 	<header class="header">
- 		<div class="header-left icon-home"></div>
- 		<div class="header-title">
- 			输入城市/景点/游玩主题
- 		</div>
- 		<div class="header-right">
- 			北京
- 		</div>
- 	</header>
+	<header class="header">
+		<div class="header-left">
+			<span class="iconfont icon-fanhui"></span>
+		</div>
+		<div class="header-title">
+			输入城市/景点/游园主题
+		</div>
+		<div class="header-right">
+			<div class="header-city-wrapper">
+				<span class="header-city">北京</span>
+			</div>
+		</div>
+	</header>
 </template>
 
 <script>
-export default {
-	
-}
+	export default {
+		
+	}
 </script>
 
 <style>
 	.header {
 		position: relative;
-		height: .88rem;
-		background: #00bcd4;
+		height: 0.88rem;
+		background: #00BCD4;
+		overflow: hidden;
 	}
 	.header-left {
 		float: left;
-		width: .4rem;
-		padding: 0 .2rem;
-		line-height: .88rem;
-		font-size: .3rem;
+		width: 0.2rem;
+		padding: 0 0.2rem;
+		line-height: 0.88rem;
+		font-size: 0.4rem;
 		color: #fff;
 	}
-	.header-title {
+	.header-title{
 		position: absolute;
-		left: .8rem;
+		left: 0.8rem;
 		right: 1.28rem;
-		top: .14rem;
-		line-height: .6rem;
+		top: 0.14rem;
+		line-height: 0.6rem;
 		background: #fff;
-		border-radius: .06rem;
-		text-indent: .2rem;
+		border-radius: 0.06rem;
+		text-indent: 0.2rem;
 		color: #ccc;
 	}
 	.header-right {
 		float: right;
 		width: 1.28rem;
-		line-height: .88rem;
+		line-height: 0.88rem;
 		text-align: center;
 		color: #fff;
-		font-size: 0.2rem;
 	}
-	.header-right:after {
-		content: "";
+	.header-city-wrapper {
+		position: relative;
+		padding-right: 0.3rem;
+	}
+	.header-city {
+		overflow: hidden;
+		display: inline-block;
+		white-space: nowrap;
+		width: 1rem;
+		text-overflow: ellipsis;
+	}
+	.header-city:after{
+		content: "\0020";
 		position: absolute;
-		top: .35rem;
-		right: 0.06rem;
-		width: 0rem;
-		height: 0rem;
-		border-left: 0.1rem solid transparent;
-		border-right: 0.1rem solid transparent;
-		border-top: 0.15rem solid #FFFFFF; 
+		top: 0.4rem;
+		right: 0.14rem;
+		width: 0;
+		height: 0;
+		border: 0.1rem solid transparent;
+		border-top: 0.1rem solid #fff;
 	}
 </style>
