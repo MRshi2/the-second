@@ -4,7 +4,7 @@
  			<li class="mp-product-item">
  				<a href="#">
  				<div class="mp-product-imgcon">
- 					<img src="../../assets/img/xwk_list1.jpg" />
+ 					<img src="../../assets/img/home/xwk_list1.jpg" />
  					<span class="mp-product-bookingflag"><span>可订明日</span></span>
  				</div>
  				<div class="mp-product-info">
@@ -25,7 +25,7 @@
  			<li class="mp-product-item">
  				<a href="#">
  				<div class="mp-product-imgcon">
- 					<img src="../../assets/img/xwk_list2.jpg" />
+ 					<img src="../../assets/img/home/xwk_list2.jpg" />
  					<span class="mp-product-bookingflag"><span>可订明日</span></span>
  				</div>
  				<div class="mp-product-info">
@@ -46,7 +46,7 @@
  			<li class="mp-product-item">
  				<a href="#">
  				<div class="mp-product-imgcon">
- 					<img src="../../assets/img/xwk_list3.jpg" />
+ 					<img src="../../assets/img/home/xwk_list3.jpg" />
  					<span class="mp-product-bookingflag"><span>可订明日</span></span>
  				</div>
  				<div class="mp-product-info">
