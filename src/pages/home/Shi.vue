@@ -4,74 +4,76 @@
     		<div class="swiper-img-con">
     			<ul>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/1.png"></div>
+    					<div class="imgdiv"><img src="../../assets/img/home/1.png"></div>
     					<div>景点门票</div>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/2.png"></div>
+    					<div class="imgdiv"><img src="../../assets/img/home/2.png"></div>
     					<div>动植物园</div>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/3.png"></div>
+    					<div class="imgdiv"><img src="../../assets/img/home/3.png"></div>
     					<div>故宫</div>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/4.png"></div>
+    					<div class="imgdiv"><img src="../../assets/img/home/4.png"></div>
     					<div>一日游</div>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/1.png"></div>
+    					<div class="imgdiv"><img src="../../assets/img/home/5.png"></div>
     					<div>必有榜单</div>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/2.png"></div>
+    					<div class="imgdiv"><img src="../../assets/img/home/6.png"></div>
     					<div>秋色美</div>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/3.png"></div>
+    					<div class="imgdiv"><img src="../../assets/img/home/7.png"></div>
     					<div>游乐场</div></li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/4.png"></div>
+    					<div class="imgdiv"><img src="../../assets/img/home/8.png"></div>
     					<div>泡温泉</div>
     				</li>
     			</ul>
+    			
     		</div>
     	</swiper-slide>
    		<swiper-slide>
    			<div class="swiper-img-con">
    				<ul>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/1.png"></div>
+    					<div class="imgdiv"><img src="../../assets/img/home/1.png"></div>
     					<div>景点门票</div>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/2.png"></div>
+    					<div class="imgdiv"><img src="../../assets/img/home/2.png"></div>
     					<div>动植物园</div>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/3.png"></div>
+    					<div class="imgdiv"><img src="../../assets/img/home/3.png"></div>
     					<div>故宫</div>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/4.png"></div>
+    					<div class="imgdiv"><img src="../../assets/img/home/4.png"></div>
     					<div>一日游</div>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/1.png"></div>
+    					<div class="imgdiv"><img src="../../assets/img/home/5.png"></div>
     					<div>必有榜单</div>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/2.png"></div>
+    					<div class="imgdiv"><img src="../../assets/img/home/6.png"></div>
     					<div>秋色美</div>
     				</li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/3.png"></div>
+    					<div class="imgdiv"><img src="../../assets/img/home/7.png"></div>
     					<div>游乐场</div></li>
     				<li>
-    					<div class="imgdiv"><img src="../../assets/4.png"></div>
+    					<div class="imgdiv"><img src="../../assets/img/home/8.png"></div>
     					<div>泡温泉</div>
     				</li>
     			</ul>
+    			
    			</div>
    		</swiper-slide>
    		
@@ -111,6 +113,7 @@
 		width: 100%;
 		height: 1.5rem;
 		padding-bottom: 31.25%;
+		border-bottom: 1px solid #F1F1F1;
 	}
 	.swiper-img-con ul li{
 		width: 25%;

@@ -17,6 +17,7 @@ export default {
 		"home-header": HeaderComponent,
 		"swiper-content": SwiperComponent,
 		"shi-content":ShiserComponent
+		
 	}
 }
 </script>
