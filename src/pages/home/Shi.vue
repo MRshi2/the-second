@@ -5,7 +5,7 @@
     			<ul>
     				<li>
     					<div class="imgdiv"><img src="../../assets/img/home/1.png"></div>
-    					<div>景点门票</div>
+    					<div class="over">景点门票景点门票</div>
     				</li>
     				<li>
     					<div class="imgdiv"><img src="../../assets/img/home/2.png"></div>
@@ -131,5 +131,12 @@
 	}
 	.imgdiv img{
 		width: 100%;
+	}
+	.over{
+		width: 1.5rem;
+		margin-left: 0.2rem;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+		overflow: hidden;
 	}
 </style>
