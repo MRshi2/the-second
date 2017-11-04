@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="mp-con">
 		<ul class="mp-listitem-con">
 			<li>
 				<p>
@@ -22,6 +22,7 @@
 				<img src="../../assets/img/home/1685d2108b652302.png"/>
 			</li>
 		</ul>
+		<h2 class="mp-modtitle">热销推荐</h2>
 	</div>
 </template>
 
@@ -29,11 +30,14 @@
 </script>
 
 <style scoped>
+	.mp-con{
+		background: #f5f5f5;
+	}
 	.mp-listitem-con{
 		width: 100%;
-		margin-top: 0.1rem;
 		height: 0.98rem;
 		display: flex;
+		margin-bottom: 1px;
 	}
 	.mp-listitem-con li{
 		width: 50%;
@@ -54,7 +58,7 @@
 		height: 0.98rem;
 	}
 	.mp-listitem-con li:nth-child(1){
-		margin-right: 1px;
+		border-right: 1px solid #f5f5f5;
 	}
 	.mp-activity-con{
 		width: 100%;
@@ -68,10 +72,21 @@
 		background: #fff;
 	}
 	.mp-activity-con li:nth-child(1){
-		margin-right: 1px;
+		border-right: 1px solid #f5f5f5;
 	}
 	.mp-activity-con li img{
 		height: 1.4rem;
 		width: 100%;
+	}
+	.mp-modtitle{
+		display: inline-block;
+	    overflow: hidden;
+	    padding-left: .26rem;
+	    line-height: .8rem;
+		width: 2rem;
+		height: .8rem;	
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	    color: #212121;
 	}
 </style>
