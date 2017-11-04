@@ -5,12 +5,11 @@
 </template>
 
 <script>
-export default {
-}
+export default {}
 </script>
 
 <style>
-	@import url("./reset.css");
-	@import url("./iconfont/iconfont.css");
-	@import url("../../node_modules/swiper/dist/css/swiper.css");
+	@import "./reset.css";
+	@import "./iconfont/iconfont.css";
+	@import "../../node_modules/swiper/dist/css/swiper.css"
 </style>
