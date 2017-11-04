@@ -1,9 +1,7 @@
 <template>
  	<header class="header">
  		<div class="header-left iconfont icon-fanhui"></div>
- 		<div class="header-title">
- 			输入城市或景点
- 		</div>
+ 		<input class="header-title" placeholder="输入城市或景点">					
  		<div class="header-right">
  			搜索
  		</div> 			
@@ -24,7 +22,7 @@ export default {
 	}
 	.header-left {
 		float: left;
-		width: .4rem;
+		width:3%;
 		padding: 0 .2rem;
 		line-height: .88rem;
 		font-size: .35rem;
@@ -32,18 +30,17 @@ export default {
 	}
 	.header-title {
 		position: absolute;
-		left: .8rem;
-		right: 1.28rem;
-		top: .14rem;
-		line-height: .6rem;
+		top: .12rem;
+		width: 76%;
+		height: .56rem;		
 		background: #fff;
-		border-radius: .06rem;
+		border-radius: .12rem;
 		text-indent: .2rem;
 		color: #ccc;
 	}
 	.header-right {
 		float: right;
-		width: 1.28rem;
+		width: 14%;
 		line-height: .88rem;
 		text-align: center;
 		color: #fff;
