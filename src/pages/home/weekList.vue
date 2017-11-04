@@ -45,8 +45,8 @@ export default {
 .week-list-con{
 	width: 100%;
 	overflow: hidden;
-	background: #eee;
 }
+
 .week-list-con h3:nth-child(1){
 	padding: .25rem .2rem;
 }
