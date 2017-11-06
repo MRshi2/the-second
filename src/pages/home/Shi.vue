@@ -1,4 +1,4 @@
-<template>
+﻿<template>
 	<swiper :options="swiperOption" ref="mySwiper">
     	<swiper-slide>
     		<div class="swiper-img-con">
@@ -132,7 +132,6 @@
 	}
 	
 	.contents{
-		margin-left: 0.2rem;
 		white-space: nowrap;
 		text-overflow: ellipsis;
 		overflow: hidden;
