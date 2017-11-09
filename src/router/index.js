@@ -5,6 +5,7 @@ import List from '@/pages/list/List'
 import Shidetail from '@/pages/detail-shi/Shidetail'
 import Shilunbo from '@/pages/detail-shi-lunbo/Lunbo'
 import Pay from '@/pages/pay/Pay'
+import City from '@/pages/city/City'
 
 Vue.use(Router)
 
@@ -35,6 +36,11 @@ export default new Router({
     	path: '/pay',
       name: 'pay',
       component: Pay
+    },
+    {
+      path: '/city',
+      name: 'city',
+      component: City
     }
    ]
  

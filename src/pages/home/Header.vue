@@ -7,9 +7,11 @@
 	 		</div>
  		</router-link>
  		<div class="header-right">
+ 			<router-link to="/city">
  			<div class="header-city-wrapper">
  				<span class="header-city">北京</span>
  			</div>
+ 			</router-link>
  		</div>
  	</header>
 </template>
