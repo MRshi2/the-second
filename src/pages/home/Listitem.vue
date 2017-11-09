@@ -3,13 +3,13 @@
 		<ul class="mp-listitem-con">
 			<li>
 				<p>
-					<span class="iconfont icon-weibiaoti-"></span>
+					<span class="iconfont icon-diliweizhi"></span>
 					<i>定位失败</i>
 				</p>
 			</li>
 			<li>
 				<p>
-					<span class="iconfont icon-earth"></span>
+					<span class="iconfont icon-diqiu"></span>
 					<i>5折泡温泉</i>
 				</p>
 			</li>

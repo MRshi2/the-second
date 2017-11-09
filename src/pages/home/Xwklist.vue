@@ -95,14 +95,17 @@ export default {}
 </script>
 
 <style>
+	
 	*{
 		padding: 0;
 		margin: 0;
+		
 	}
 	.mp-product-list{
 		margin:0.2rem;		
 		position: relative;	
 		border-top: 2px solid #EEEEEE;	
+		
 }
 	.mp-product-item a{
 		display: flex;

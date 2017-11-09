@@ -1,27 +1,27 @@
 <template>
 	<swiper :options="swiperOption" ref="mySwiper">
-    	
-   		<swiper-slide v-for="item in swiperInfo" :key="item.id">
-   			<router-link :to="item.link">
-   			<div class="swiper-img-con">
-   				<img :src="item.imgUrl">
-   			</div>
-   			</router-link>
-   		</swiper-slide>
-   		
-    	<div class="swiper-pagination"  slot="pagination"></div>
+		
+    	<swiper-slide>
+    		<div class="swiper-img-con" v-for="item in lunboInfo" :key="item.id">
+    			<router-link :to="item.link">
+    			<img :src="item.imgUrl" class="swiper-img">
+    			<span>{{item.count}}</span>
+    			</router-link>
+    		</div>
+    		
+    	</swiper-slide>
+    
 	</swiper>
+
 </template>
 
 <script>
 	import { swiper, swiperSlide } from 'vue-awesome-swiper'
-
   	export default {
   		
     	data() {
 			return {
 				swiperOption: {
-          			autoplay: 3000,
           			direction: 'horizontal',
          			autoHeight: true,
           			pagination: '.swiper-pagination',
@@ -31,15 +31,16 @@
     	},
     	
     	computed:{
-    		swiperInfo(){
-    			return this.$store.state.home.swiperInfo;
+    		lunboInfo(){
+    			return this.$store.state.lunbo.lunboInfo;
     		}
     	},
-
+    
     	components: {
       		swiper,
     		swiperSlide
 		}
+		
 	}
 </script>
 
@@ -50,14 +51,18 @@
 </style>
 
 <style scoped>
+	
 	.swiper-img-con {
+		padding-top: 3rem;
 		/*让高度自动变为宽度的31.25%,只能用padding实现*/
 		overflow: hidden;
 		width: 100%;
 		height: 0;
-		padding-bottom: 31.25%;
+		padding-bottom: 135%;
+		background: #000000;
 	}
-	.swiper-img-con img {
+	.swiper-img {
 		width: 100%;
+		
 	}
 </style>

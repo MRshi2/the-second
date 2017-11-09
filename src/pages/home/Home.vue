@@ -1,37 +1,42 @@
 <template>
 	<div>
- 		<home-header/>
- 		<swiper-content/>
- 		<shi-content/>
- 		<home-Listitem></home-Listitem>
- 		<mpxwkcontent/>
- 		<week-content/>
+ 		<index-header />
+ 		<index-swiper />
+ 		<index-smallswiper />
+ 		<index-active />
+ 		<index-hotsale />
+ 		<index-footer />
  	</div>
 </template>
 
 <script>
 
 import HeaderComponent from "./Header";
- import SwiperComponent from "./Swiper";
+import SwiperComponent from "./Swiper";
 import ShiserComponent from "./Shi";//石文渊
 import ListitemComponent from './Listitem';//路雪缘
 import MpXwkcotaintList from "./Xwklist";//徐文凯
 import weekList from './weekList';//赵振平
 
+
 export default {
+	
 	components: {
-		
-		"home-header": HeaderComponent,
-		 "swiper-content": SwiperComponent,
-		"shi-content":ShiserComponent,
-		'home-Listitem' : ListitemComponent,
-		"mpxwkcontent":MpXwkcotaintList,
-		"week-content": weekList
-		
+		"index-header": HeaderComponent,
+		"index-swiper": SwiperComponent,
+		"index-smallswiper":ShiserComponent,
+		'index-active' : ListitemComponent,
+		"index-hotsale":MpXwkcotaintList,
+		"index-footer": weekList
+	},
+	
+	mounted(){
+		if(this.$store.getters.shouldGetData){
+		this.$store.dispatch("getIndexInfo");
+		};
 	}
 }
 </script>
-
 
 <style>
 </style>
