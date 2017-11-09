@@ -1,11 +1,22 @@
 <template>
- 	<div>list</div>
+	<div>
+ 		<list-header/>
+ 		<list-article/>
+ 	</div>
 </template>
 
 <script>
-	export default {
-		
+
+import HeaderComponent from "./Header";
+import ArticleComponent from "./Article";
+
+export default {
+	components: {
+		"list-header": HeaderComponent,
+		"list-article":ArticleComponent
 	}
+}
 </script>
 
-<style></style>
+<style>
+</style>

@@ -1,8 +1,20 @@
 <template>
+  
 	<swiper :options="swiperOption" ref="mySwiper">
+<<<<<<< HEAD
     	
    		<swiper-slide v-for="item in swiperInfo" :key="item.id">
    			<router-link :to="item.link">
+=======
+
+    	<swiper-slide>
+
+    		<div class="swiper-img-con">
+    			<img src="../../assets/img/home/1d7693c6bd8abd02.png_640x200_43c308dd.png" class="swiper-img">
+    		</div>
+    	</swiper-slide>
+   		<swiper-slide>
+>>>>>>> 4ad0b73c1ea60ceaa9148fde3d49a38dc6293458
    			<div class="swiper-img-con">
    				<img :src="item.imgUrl">
    			</div>

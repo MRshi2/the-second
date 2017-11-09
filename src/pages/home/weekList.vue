@@ -55,6 +55,7 @@ export default {
 	height: 0;
 	padding-bottom: 35.67%;
 	overflow: hidden;
+	background: url(http://simg1.qunarzz.com/mobile_platform/mobile_douxing/qtuan/imgdefault.jpg) #efefef center 50% no-repeat;
 }
 .week-list-con ul li div img{
 	width: 100%;

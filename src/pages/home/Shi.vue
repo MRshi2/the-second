@@ -1,4 +1,4 @@
-<template>
+﻿<template>
 	<swiper :options="swiperOption" ref="mySwiper">
     	<swiper-slide>
     		<div class="swiper-img-con">
