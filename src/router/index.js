@@ -6,9 +6,11 @@ import Shidetail from '@/pages/detail-shi/Shidetail'
 import Shilunbo from '@/pages/detail-shi-lunbo/Lunbo'
 import Pay from '@/pages/pay/Pay'
 import City from '@/pages/city/City'
+import Onedaytour from '@/pages/onedaytour/Onedaytour'
+import VueAMap from 'vue-amap';
 
 Vue.use(Router)
-
+Vue.use(VueAMap);
 export default new Router({
   routes: [
     {
@@ -41,7 +43,18 @@ export default new Router({
       path: '/city',
       name: 'city',
       component: City
+    },
+    {
+      path: '/onedaytour',
+      name: 'onedaytour',
+      component: Onedaytour
     }
    ]
  
 })
+
+VueAMap.initAMapApiLoader({
+  key: 'YOUR_KEY',
+  plugin: ['AMap.Scale', 'AMap.OverView', 'AMap.ToolBar', 'AMap.MapType']
+});
+

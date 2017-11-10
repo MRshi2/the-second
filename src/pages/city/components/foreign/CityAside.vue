@@ -21,7 +21,7 @@
 		methods: {
 			handleIndexTouch(e){
 				var letterposition=parseInt((e.touches[0].clientY-e.path[1].offsetTop)/this.$refs.A[0].clientHeight);
-				this.$emit('handleChooseLetter',letterposition);
+				this.$emit('handleChooseLetter1',letterposition);
 				document.addEventListener("touchmove",this.handleMoveTouch, false);
         		document.addEventListener("touchend",this.handleMoveEnd, false)
 			},
@@ -30,12 +30,12 @@
 				if(letterposition1<=0){
 					var letterposition=0;
 				}
-				else if(letterposition1<21 && letterposition1>0){
+				else if(letterposition1<19 && letterposition1>0){
 					var letterposition=letterposition1;
-				}else if(letterposition1>=21){
-					var letterposition=21;
+				}else if(letterposition1>=19){
+					var letterposition=19;
 				}
-				this.$emit('handleChooseLetter',letterposition);					
+				this.$emit('handleChooseLetter1',letterposition);					
 				
 			},
 			handleMoveEnd() {

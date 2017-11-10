@@ -26,7 +26,7 @@
 
 <script>
 	export default {
-		props:['chooseletter'],
+		props:['chooseletter1'],
 		data(){
 			return {
 				alphabet:[]
@@ -41,9 +41,23 @@
 			}
 		},
 		watch:{
-			chooseletter(){
-				var scrollTop =this.alphabet[this.chooseletter].position;
-				document.body.scrollTop = scrollTop-45;
+			chooseletter1(){
+				var scrollTop =this.alphabet[this.chooseletter1].position;
+				console.log()
+				if(document.body.scrollTop == 0){
+					document.documentElement.scrollTop = scrollTop-45;
+				}else{
+					document.body.scrollTop = scrollTop-45;
+				}
+			}
+		},
+		mounted(){
+			for(var letter in this.foreigncity){
+				var lettra =this.foreigncity[letter][0];
+				this.alphabet.push({
+					lettra:lettra,
+					position:this.$refs[lettra][0].offsetTop
+				})
 			}
 		},
 		updated(){
@@ -56,7 +70,11 @@
 			}
 		},
 		beforeDestroy(){
-			document.body.scrollTop=0;
+			if(document.body.scrollTop == 0){
+				document.documentElement.scrollTop = 0;
+			}else{
+				document.body.scrollTop = 0;
+			}
 		}
 	}
 </script>

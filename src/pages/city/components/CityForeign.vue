@@ -1,8 +1,8 @@
 <template>
 	<div>
  		<city-search @handleChangeShow='handleChangeShow'/>
- 		<city-list v-show='hide' :chooseletter='chooseletter'/>
- 		<city-aside v-show='hide' @handleThisLetterForeign='handleThisLetter'/>
+ 		<city-list v-show='hide' :chooseletter1='chooseletter1'/>
+ 		<city-aside v-show='hide' @handleChooseLetter1='handleChooseLetter1'/>
  	</div>
 </template>
 
@@ -20,15 +20,15 @@ export default {
 	data(){
 		return {
 			hide:true,
-			chooseletter:''
+			chooseletter1:''
 		}
 	},
 	methods: {
 		handleChangeShow(e){
 			this.hide = !e.hide;
 		},
-		handleThisLetter(e){
-			this.chooseletter=e.chooseletter;
+		handleChooseLetter1(chooseletter){
+			this.chooseletter1=chooseletter;
 		}
 	}
 }

@@ -4,6 +4,7 @@ import home from '../pages/home/module.js'
 import lunbo from '../pages/detail-shi-lunbo/module.js'
 import detail from '../pages/detail-shi/module.js'
 import city from '../pages/city/module.js'
+import onedaytour from '../pages/onedaytour/module.js'
 Vue.use(Vuex);
 
 export default new Vuex.Store({
@@ -11,6 +12,8 @@ export default new Vuex.Store({
 		home:home,
 		lunbo:lunbo,
 		detail:detail,
-		city:city
+		city:city,
+		onedaytour:onedaytour,
+		
 	}
 })

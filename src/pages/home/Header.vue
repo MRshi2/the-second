@@ -61,6 +61,7 @@
 		padding-right: .3rem;
 	}
 	.header-city {
+		color: #FFFFFF;
 		overflow: hidden;
 		display: inline-block;
 		white-space: nowrap;
