@@ -8,6 +8,7 @@ import Pay from '@/pages/pay/Pay'
 import City from '@/pages/city/City'
 import Onedaytour from '@/pages/onedaytour/Onedaytour'
 import VueAMap from 'vue-amap';
+import Oneday from '@/pages/oneday/Oneday'
 
 Vue.use(Router)
 Vue.use(VueAMap);
@@ -48,6 +49,11 @@ export default new Router({
       path: '/onedaytour',
       name: 'onedaytour',
       component: Onedaytour
+    },
+    {
+      path: '/oneday',
+      name: 'oneday',
+      component: Oneday
     }
    ]
  
