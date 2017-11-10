@@ -1,6 +1,8 @@
 <template>
  	<header class="header">
+ 		<router-link to='/'>
  		<div class="header-left iconfont icon-fanhui"></div>
+ 		</router-link>
  		<input class="header-title" placeholder="输入城市或景点">					
  		<div class="header-right">
  			搜索
