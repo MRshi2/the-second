@@ -49,14 +49,14 @@
 			}
 		},
 		
-		methods: {						
+		methods: {
 			handClickBottom:function() {				
 				this.all = true
 			},
 			
 			handClickTop:function() {
 				this.all = false
-			},			
+			},
 		},
 		
 		mounted() {						

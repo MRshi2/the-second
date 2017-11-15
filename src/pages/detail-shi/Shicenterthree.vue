@@ -13,7 +13,7 @@
 			</em>
 			<span>￥40</span>
 			<span>起</span>
-			<span class="iconfont icon-jiantouxia" @click="handleShow"></span>
+			<span class="iconfont icon-jiantouxia" @click="handleShow" v-show="speed"></span>
 		</div>
 		
 		<div class="center2-1" v-show="open">
@@ -215,6 +215,7 @@
 				if(this.moreText=="展开"){
 					this.moreText="收起"
 					this.open = true
+					this.speed = false
 				}else{
 					this.moreText="收起"
 					this.open = false
