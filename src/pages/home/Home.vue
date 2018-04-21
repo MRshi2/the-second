@@ -1,19 +1,11 @@
 <template>
 	<div>
-<<<<<<< HEAD
- 		<home-header/>
- 		<swiper-content/>
-
- 		<home-Listitem></home-Listitem>
- 	
-=======
  		<index-header />
  		<index-swiper />
  		<index-smallswiper />
  		<index-active />
  		<index-hotsale />
  		<index-footer />
->>>>>>> all
  	</div>
 </template>
 
@@ -31,15 +23,7 @@ import ListitemComponent from './Listitem';//路雪缘
 
 
 export default {
-	
 	components: {
-<<<<<<< HEAD
-		"home-header": HeaderComponent,
-		"swiper-content": SwiperComponent,
-
-		'home-Listitem' : ListitemComponent,
-
-=======
 		"index-header": HeaderComponent,
 		"index-swiper": SwiperComponent,
 		"index-smallswiper":ShiserComponent,
@@ -52,7 +36,6 @@ export default {
 		if(this.$store.getters.shouldGetData){
 		this.$store.dispatch("getIndexInfo");
 		};
->>>>>>> all
 	}
 }
 </script>
