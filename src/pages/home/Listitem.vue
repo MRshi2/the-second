@@ -1,27 +1,15 @@
 <template>
-<<<<<<< HEAD
-	<div>
-		<ul class="mp-listitem-con">
-			<li>
-				<p>
-					<span class="iconfont icon-weibiaoti-"></span>
-=======
 	<div class="mp-con">
 		<ul class="mp-listitem-con">
 			<li>
 				<p>
 					<span class="iconfont icon-diliweizhi"></span>
->>>>>>> all
 					<i>定位失败</i>
 				</p>
 			</li>
 			<li>
 				<p>
-<<<<<<< HEAD
-					<span class="iconfont icon-earth"></span>
-=======
 					<span class="iconfont icon-diqiu"></span>
->>>>>>> all
 					<i>5折泡温泉</i>
 				</p>
 			</li>
@@ -34,10 +22,7 @@
 				<img src="../../assets/img/home/1685d2108b652302.png"/>
 			</li>
 		</ul>
-<<<<<<< HEAD
-=======
 		<h2 class="mp-modtitle">热销推荐</h2>
->>>>>>> all
 	</div>
 </template>
 
@@ -45,13 +30,6 @@
 </script>
 
 <style scoped>
-<<<<<<< HEAD
-	.mp-listitem-con{
-		width: 100%;
-		margin-top: 0.1rem;
-		height: 0.98rem;
-		display: flex;
-=======
 	.mp-con{
 		background: #f5f5f5;
 	}
@@ -60,7 +38,6 @@
 		height: 0.98rem;
 		display: flex;
 		margin-bottom: 1px;
->>>>>>> all
 	}
 	.mp-listitem-con li{
 		width: 50%;
@@ -81,11 +58,7 @@
 		height: 0.98rem;
 	}
 	.mp-listitem-con li:nth-child(1){
-<<<<<<< HEAD
-		margin-right: 1px;
-=======
 		border-right: 1px solid #f5f5f5;
->>>>>>> all
 	}
 	.mp-activity-con{
 		width: 100%;
@@ -99,18 +72,12 @@
 		background: #fff;
 	}
 	.mp-activity-con li:nth-child(1){
-<<<<<<< HEAD
-		margin-right: 1px;
-=======
 		border-right: 1px solid #f5f5f5;
->>>>>>> all
 	}
 	.mp-activity-con li img{
 		height: 1.4rem;
 		width: 100%;
 	}
-<<<<<<< HEAD
-=======
 	.mp-modtitle{
 		display: inline-block;
 	    overflow: hidden;
@@ -122,5 +89,4 @@
 		white-space: nowrap;
 	    color: #212121;
 	}
->>>>>>> all
 </style>

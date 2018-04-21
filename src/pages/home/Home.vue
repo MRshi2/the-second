@@ -19,9 +19,6 @@ import MpXwkcotaintList from "./Xwklist";//徐文凯
 import weekList from './weekList';//赵振平
 
 
-import ListitemComponent from './Listitem';//路雪缘
-
-
 export default {
 	components: {
 		"index-header": HeaderComponent,
